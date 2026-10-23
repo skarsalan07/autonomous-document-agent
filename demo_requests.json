@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Standard business request",
+    "request": "Create a professional project implementation plan for launching an AI-powered customer support chatbot for a mid-sized e-commerce business. Include project objectives, scope, architecture, implementation phases, timeline, team responsibilities, risks, estimated budget assumptions, success metrics, and next steps. Clearly label any assumptions and use illustrative estimates rather than claiming they are verified."
+  },
+  {
+    "name": "Complex, ambiguous request",
+    "request": "Prepare a technical and business proposal for a company that wants to automate its customer support using AI. The company has a limited budget, wants to launch quickly, has an existing support team, and is concerned about data privacy and inaccurate AI answers. No budget amount, deadline, technology stack, or company size has been provided. Decide what information is missing, make reasonable assumptions instead of blocking unnecessarily, compare a simple RAG-based approach with a more advanced agentic approach, recommend a practical phased implementation, and explain the trade-offs, risks, estimated costs, evaluation metrics, and rollout plan."
+  }
+]
