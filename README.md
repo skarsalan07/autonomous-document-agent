@@ -55,10 +55,10 @@ app/
   tools.py
 generated_documents/
 tests/
+app/requirements.txt
 streamlit_app.py
 .env.example
 demo_requests.json
-requirements.txt
 ```
 
 ## Prerequisites
@@ -73,9 +73,11 @@ Set up from Windows PowerShell in the project directory:
 py -3.13 -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
+python -m pip install -r app\requirements.txt
 Copy-Item .env.example .env
 ```
+
+Render deployment steps for the FastAPI and Streamlit services are in [RENDER_DEPLOYMENT.md](./RENDER_DEPLOYMENT.md).
 
 If `py -3.13` is unavailable, replace it with the command for another installed Python 3.11+ interpreter. If PowerShell blocks activation for this terminal, use `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` and activate again.
 
